@@ -3,7 +3,7 @@ const commentsRouter = express.Router();
 const {
   deleteComment,
   updateComment,
-} = require("../controller/nc-controllers");
+} = require("../controller/comments-controller");
 
 commentsRouter.route("/:comment_id").delete(deleteComment).patch(updateComment);
 
