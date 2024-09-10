@@ -5,6 +5,7 @@
   "main": "listener.js",
   "scripts": {
     "test": "jest",
+    "dev": "node listener.js",
     "prepare": "husky install",
     "start": "node listener.js"
   },
@@ -12,5 +13,11 @@
   "license": "ISC",
   "devDependencies": {
     "husky": "^9.1.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "epress": "^0.0.1-security",
+    "express": "^4.20.0"
   }
 }
