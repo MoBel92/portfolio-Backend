@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "portfolio-backend",
+  "main": "listener.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install",
+    "start": "node listener.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
